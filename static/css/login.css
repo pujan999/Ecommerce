@@ -1,0 +1,22 @@
+.card-2 .card-heading {
+  background: url("../images/bg-heading-02.jpg") top left/cover no-repeat;
+  width: 29.1%;
+  display: table-cell;
+}
+
+.card-2 .card-body {
+  display: table-cell;
+  padding: 80px 90px;
+  padding-bottom: 88px;
+}
+
+@media (max-width: 767px) {
+  .card-2 {
+    display: block;
+  }
+  .card-2 .card-heading {
+    width: 100%;
+    display: block;
+    padding-top: 300px;
+    background-position: left center;
+  }
